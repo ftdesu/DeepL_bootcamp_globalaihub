@@ -58,6 +58,7 @@ Modelin odaklandığı bölgeler **Grad-CAM ısı haritaları** ile incelenmişt
   - *Uçan Payanda ↔ Kubbe(Dış)* → dış kemer & gökyüzü görsellerinde yanlış odaklanmalar  
 
 Sonuç: Model sadece ezberlemiyor, insan uzmanların da dikkate aldığı bölgelere yoğunlaşıyor → **yorumlanabilir yapay zeka (XAI)** desteği sağlandı.
+
 ---
 
 
