@@ -71,7 +71,8 @@ Sonuç: Model sadece ezberlemiyor, insan uzmanların da dikkate aldığı bölge
 Sonuç olarak proje, **yüksek doğruluk** ve **açıklanabilir yapay zeka** birleşimiyle başarılı bir mimari miras sınıflandırma sistemi ortaya koymaktadır.  
 
 ---
-
+##  Kaggle Notebook
+https://www.kaggle.com/code/ftdesu/deepl-bootcamp-globalaihub-ft
 ##  Kullanım  
 Notebook içerisinde:  
 - `3. Temel CNN Modeli`  
@@ -85,10 +86,3 @@ adımlarını izleyerek çalışma süreci takip edilebilir.
 
 ---
 
-##  Gelecek Çalışmalar  
-- Veri artırma (augmentation) stratejilerini geliştirmek  
-- Daha büyük ölçekli ön-eğitimli modelleri denemek (ResNet, EfficientNet)  
-- Özellikle zor sınıflar (Apsis, Uçan Payanda) için sınıf-dengeli veri toplamak  
-- 3D mimari öğeler için çoklu görünüm/multi-view öğrenme yöntemlerini uygulamak  
-
----
