@@ -49,37 +49,17 @@ Amaç, **CNN tabanlı derin öğrenme mimarileri ve transfer öğrenme yöntemle
 ##  Grad-CAM Açıklanabilirlik  
 
 Modelin odaklandığı bölgeler **Grad-CAM ısı haritaları** ile incelenmiştir:  
-## Doğru / Yanlış Tahmin Örnekleri
-
-Aşağıda **Temel CNN** modelinden rastgele tahmin örnekleri gösterilmektedir:  
-Yeşil → Doğru tahmin, Kırmızı → Yanlış tahmin
-
-![Temel CNN Tahmin Örnekleri](images/Screen_Shot_2025-09-26_at_21.15.46_PM.png)
-
----
-
-##  Grad-CAM Açıklanabilirlik Örnekleri
-
-Modelin farklı sınıflarda **odaklandığı bölgeler** Grad-CAM ısı haritalarıyla görselleştirilmiştir:
-
-### Sunak ve Kubbe(Dış)
-![Grad-CAM Sunak & Kubbe](images/Screen_Shot_2025-09-26_at_20.57.35_PM.png)
-
-### Uçan Payanda ve Vitray
-![Grad-CAM Payanda & Vitray](images/Screen_Shot_2025-09-26_at_20.57.49_PM.png)
-
-
--  **Doğru tahminlerde** → Model mimari öğelerin **ayrıştırıcı bölgelerine** odaklandı:  
+- **Doğru tahminlerde** → Model mimari öğelerin **ayrıştırıcı bölgelerine** odaklandı:  
   - *Vitray* → cam yüzeyi & renk kontrastı  
   - *Kubbe(Dış)* → kubbenin yuvarlak silueti  
   - *Sunak* → merkezdeki ikonografik detay  
 
--  **Yanlış tahminlerde** → Benzer yapılar çakıştı:  
+- **Yanlış tahminlerde** → Benzer yapılar çakıştı:  
   - *Uçan Payanda ↔ Kubbe(Dış)* → dış kemer & gökyüzü görsellerinde yanlış odaklanmalar  
 
-Sonuç: Model sadece ezberlemiyor, insan uzmanların da dikkate aldığı bölgelere yoğunlaşıyor → **yorumlanabilir yapay zeka (XAI)** desteği sağlandı.  
-
+Sonuç: Model sadece ezberlemiyor, insan uzmanların da dikkate aldığı bölgelere yoğunlaşıyor → **yorumlanabilir yapay zeka (XAI)** desteği sağlandı.
 ---
+
 
 ##  Genel Değerlendirme  
 
